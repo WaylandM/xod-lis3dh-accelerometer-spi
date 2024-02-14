@@ -1,0 +1,39 @@
+{
+  "description": "Create a lis3dh device on the hardware SPI bus.",
+  "nodes": [
+    {
+      "description": "A lis3dh device.",
+      "id": "HkIVcXdfP",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "SJcpqGuGv",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D8"
+      },
+      "description": "Chip Select.",
+      "id": "rybsDn9sp",
+      "label": "CS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    }
+  ]
+}

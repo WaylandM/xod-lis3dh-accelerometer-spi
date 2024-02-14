@@ -1,0 +1,6 @@
+{
+  "description": "LIS3DH triaxial accelerometer on an SPI bus. Wraps https://github.com/adafruit/Adafruit_LIS3DH. Datasheet: http://www.st.com/resource/en/application_note/cd00290365.pdf. N.B. this library has not been tested. ",
+  "license": "BSD",
+  "name": "lis3dh-accelerometer-spi",
+  "version": "0.0.1"
+}
